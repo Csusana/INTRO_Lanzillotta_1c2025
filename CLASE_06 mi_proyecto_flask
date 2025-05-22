@@ -1,0 +1,30 @@
+Flask en un framework minimalista web de python
+
+[PASO PARA UN PROYECTO FLASK]
+1- mkdir mi_proyecto
+2- cd mi_proyecto
+3- code . (crear app.py y otro directorio .venv)
+4- pipenv install flask (sudo apt pip install pipenv)
+5- pipenv shell (activacion del entorno, verifico con pip show flask)
+6- from Flask import Flask (dentro del app.py configuro)
+7- una vez dentro del entorno , ya puedo usar los comadno de pip y flask
+  * pip list
+  * pip install Flask
+  * pip -version
+  * flask run
+8- exit (para salir del entonrno virtual)
+
+
+from flask import flask
+app = Flask(__name__)
+
+@app.route('/')
+def hello_world():
+  return 'Hello, World!'
+
+if __name__ == '__main__':
+  app.run("localhost", port=8081, debug=True)
+
+
+
+
