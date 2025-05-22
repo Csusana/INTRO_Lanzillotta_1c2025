@@ -1,0 +1,21 @@
+[FRONTEND]: desarrollo del lado del cliente
+-interfaz del usuario (UI) y experiencia del usuario (UX)
+
+stack basico de desarrollo:  HTML + CSS + JAVASCRIPT
+
+HTML: HyperTextMarkupLanguaje es un lenguaje de marco
+define la estructura de elementos de la web.
+
+CSS: CascadingStyleSheets es un lenguaje de hoja de estilo
+da estilo a elementos que ya fueron indicado y ubicados en una estructura.
+
+JAVASCRIPT: es un lenguaje de programacion de los navegadores 
+
+ej: a un elemento ya marcado (html) lo quiero en rojo (css)
+
+INSTALACIONES NECESARIAS: 
+- verificar que tenemos instalado Python
+- actualizar pip : pip install -U pip
+
+
+
