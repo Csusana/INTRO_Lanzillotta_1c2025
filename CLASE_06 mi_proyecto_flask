@@ -24,7 +24,13 @@ def hello_world():
 
 if __name__ == '__main__':
   app.run("localhost", port=8081, debug=True)
+********************************************************
 
+from flask import Flask, render template, request, redirect, url_for
+-
+-
+def hello_msg():
+ return render_template('home.html', nombre ="Bruno")
 
 
 
